@@ -15,6 +15,8 @@
 		9B19656923C91349007F2460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B19656723C91349007F2460 /* LaunchScreen.storyboard */; };
 		9B19657423C91349007F2460 /* overlay_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19657323C91349007F2460 /* overlay_DemoTests.swift */; };
 		9B19657F23C91349007F2460 /* overlay_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19657E23C91349007F2460 /* overlay_DemoUITests.swift */; };
+		9B19658F23C914BC007F2460 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B19658E23C914BC007F2460 /* Places.plist */; };
+		9B19659123C91582007F2460 /* place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19659023C91582007F2460 /* place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9B19657A23C91349007F2460 /* overlay DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "overlay DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B19657E23C91349007F2460 /* overlay_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overlay_DemoUITests.swift; sourceTree = "<group>"; };
 		9B19658023C91349007F2460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B19658E23C914BC007F2460 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		9B19659023C91582007F2460 /* place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				9B19656523C91349007F2460 /* Assets.xcassets */,
 				9B19656723C91349007F2460 /* LaunchScreen.storyboard */,
 				9B19656A23C91349007F2460 /* Info.plist */,
+				9B19658E23C914BC007F2460 /* Places.plist */,
+				9B19659023C91582007F2460 /* place.swift */,
 			);
 			path = "overlay Demo";
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B19656923C91349007F2460 /* LaunchScreen.storyboard in Resources */,
+				9B19658F23C914BC007F2460 /* Places.plist in Resources */,
 				9B19656623C91349007F2460 /* Assets.xcassets in Resources */,
 				9B19656423C91345007F2460 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 				9B19656123C91345007F2460 /* ViewController.swift in Sources */,
 				9B19655D23C91345007F2460 /* AppDelegate.swift in Sources */,
 				9B19655F23C91345007F2460 /* SceneDelegate.swift in Sources */,
+				9B19659123C91582007F2460 /* place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
